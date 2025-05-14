@@ -21,19 +21,7 @@ Para acessar a tela, é necessario seguir o passo a passo a seguir:
 
 - 1. Baixar a extensão live server
 
-<div align="center">
-<sub> Figura 3 - Live server </sub>
-<img src="assets/live-server.png"  width="100%">
-<sup>Fonte: Material produzido pela autora (2025)</sup>
-</div>
-
 - 2. Acessar o index.html e apertar o botão direito do mouse
-
-<div align="center">
-<sub> Figura 4 - Live server </sub>
-<img src="assets/open.png"  width="100%">
-<sup>Fonte: Material produzido pela autora (2025)</sup>
-</div>
 
 - 3. Acessar o "Open with live server"
 
