@@ -17,7 +17,7 @@
 
 <div align="center">
 <sub>Figura 1 - Prototipação no figma </sub>
-<img src="assets/figma.png"  width="70%">
+<img src="assets/figma.png"  width="90%">
 <sup>Fonte: Material produzido pela autora (2025)</sup>
 </div>
 
@@ -25,7 +25,7 @@
 
 <div align="center">
 <sub>Figura 2 - Produto codificado </sub>
-<img src="assets/tela-programada.png"  width="70%">
+<img src="assets/tela-programada.png"  width="90%">
 <sup>Fonte: Material produzido pela autora (2025)</sup>
 </div>
 
@@ -38,7 +38,7 @@ Para acessar a tela, é necessario seguir o passo a passo a seguir:
 
 <div align="center">
 <sub> Figura 3 - Live server </sub>
-<img src="assets/live-server.png"  width="80%">
+<img src="assets/live-server.png"  width="90%">
 <sup>Fonte: Material produzido pela autora (2025)</sup>
 </div>
 
@@ -46,7 +46,7 @@ Para acessar a tela, é necessario seguir o passo a passo a seguir:
 
 <div align="center">
 <sub> Figura 4 - Live server </sub>
-<img src="assets/open.png"  width="80%">
+<img src="assets/open.png"  width="90%">
 <sup>Fonte: Material produzido pela autora (2025)</sup>
 </div>
 
