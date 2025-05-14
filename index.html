@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="phone-container">
+        <div class="status-bar">
+            <div class="status-bar-left">9:41</div>
+            <div class="status-bar-center"></div>
+            <div class="status-bar-right">●●● ●</div>
+        </div>
+        <div class="header">
+            <a href="#" class="back-button">←</a>
+            <div class="title">Upload File</div>
+        </div>
+        <div class="content">
+            <div class="upload-box">
+                <div class="upload-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                </div>
+                <h2>Upload Documents</h2>
+                <p>Effortlessly add your documents to our platform with a simple upload process</p>
+                
+                <form id="upload-form" enctype="multipart/form-data">
+                    <input type="file" id="file-input" accept=".pdf,.doc,.docx,.txt,.jpg,.jpeg,.png" multiple hidden>
+                    <button type="button" id="browse-button" class="browse-button">Browse File</button>
+                </form>
+                
+                <div id="file-list" class="file-list"></div>
+                <div id="upload-progress" class="upload-progress">
+                    <div class="progress-bar"></div>
+                </div>
+                <button id="submit-button" class="submit-button" style="display: none;">Upload Files</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
