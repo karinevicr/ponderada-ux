@@ -13,21 +13,6 @@
 
 &emsp;  A estrutura de codificação inicial foi feita com o auxílio de IAs. Posteriormente, muitos dos detalhes, como cores, proporções, fontes e medidas, foram ajustados diretamente no código com base no que foi definido no Figma.
 
-- Imagem da prototipação do figma: 
-
-<div align="center">
-<sub>Figura 1 - Prototipação no figma </sub>
-<img src="assets/figma.png"  width="100%">
-<sup>Fonte: Material produzido pela autora (2025)</sup>
-</div>
-
-- Imagem de produto codificado: 
-
-<div align="center">
-<sub>Figura 2 - Produto codificado </sub>
-<img src="assets/tela-programada.png"  width="100%">
-<sup>Fonte: Material produzido pela autora (2025)</sup>
-</div>
 
 ## 📝 Guia de visualização
 
