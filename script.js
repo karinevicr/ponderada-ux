@@ -46,11 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 fileList.appendChild(fileItem);
             });
             
-            // Adicionar eventos para remover arquivos
             document.querySelectorAll('.remove-file').forEach(button => {
                 button.addEventListener('click', function() {
-                    // Nota: Não podemos realmente remover arquivos do FileList
-                    // Mas podemos esconder visualmente
                     this.closest('.file-item').style.display = 'none';
                     
                     // Se todos os arquivos foram removidos visualmente
@@ -83,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function() {
         progressBar.style.width = '0%';
         
         // Simular upload com progresso
-        // Em um caso real, você usaria XMLHttpRequest ou fetch para enviar ao servidor
         let progress = 0;
         const interval = setInterval(() => {
             progress += 5;
@@ -106,21 +102,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 }, 500);
             }
         }, 100);
-        
-        /* 
-        // Em um caso real, seria algo assim:
-        fetch('/upload-endpoint', {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => response.json())
-        .then(data => {
-            // Tratar resposta do servidor
-        })
-        .catch(error => {
-            // Tratar erro de upload
-        }); 
-        */
     });
     
     // Permitir arrastar e soltar arquivos na área de upload
